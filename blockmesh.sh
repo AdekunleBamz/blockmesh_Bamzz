@@ -32,11 +32,12 @@ print_telegram_icon() {
     echo -e "          ${MAGENTA}${ICON_TELEGRAM} Follow us on Telegram!${RESET}"
 }
 display_ascii() {
-    echo -e "    ${RED}    ____  __ __    _   ______  ____  ___________${RESET}"
-    echo -e "    ${GREEN}   / __ \\/ //_/   / | / / __ \\/ __ \\/ ____/ ___/${RESET}"
-    echo -e "    ${BLUE}  / / / / ,<     /  |/ / / / / / / / __/  \\__ \\ ${RESET}"
-    echo -e "    ${YELLOW} / /_/ / /| |   / /|  / /_/ / /_/ / /___ ___/ / ${RESET}"
-    echo -e "    ${MAGENTA}/_____/_/ |_|  /_/ |_/\____/_____/_____//____/  ${RESET}"
+    echo -e "    ${RED}___          __  __ ____________${RESET}"
+    echo -e "    ${GREEN}|  _ \   /\   |  \/  |___  |___  /${RESET}"
+    echo -e "    ${BLUE}| |_) | /  \  | \  / |  / /   / / ${RESET}"
+    echo -e "    ${CYAN}|  _ < / /\ \ | |\/| | / /   / /  ${RESET}"
+    echo -e "    ${MAGENTA}| |_) / ____ \| |  | |/ /__ / /__ ${RESET}"
+    echo -e "    ${YELLOW}|____/_/    \_|_|  |_/_____/_____|${RESET}"
 }
 
 # Display main menu
@@ -46,7 +47,7 @@ show_menu() {
     display_ascii
     draw_middle_border
     print_telegram_icon
-    echo -e "    ${BLUE}Subscribe to our channel: ${YELLOW}https://t.me/dknodes${RESET}"
+    echo -e "    ${BLUE}Subscribe to our channel: ${YELLOW}https://t.me/Bamzznodes${RESET}"
     draw_middle_border
     echo -e "                ${GREEN}Node Manager for Blockmesh${RESET}"
     echo -e "    ${YELLOW}Please choose an option:${RESET}"
